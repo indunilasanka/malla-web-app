@@ -1,0 +1,360 @@
+/*cyan*/
+/*blue*/
+/*green*/
+/*topbar*/
+#topbar .links {
+  float: right;
+}
+#topbar .welcome {
+  margin-right: 0;
+  margin-left: 23%;
+}
+#topbar .btn-group .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+#search {
+  left: 15px;
+  right: auto;
+}
+#search .button-search {
+  left: 5px;
+  right: auto;
+}
+#header-main .inner {
+  text-align: right;
+}
+#header-main .support .box-services .media-body {
+  padding-right: 10px;
+  padding-left: 0;
+}
+#header #cart .media .icon-cart {
+  right: 0;
+  margin-left: 10px;
+  left: auto;
+  margin-right: 0;
+}
+#header #cart .heading {
+  padding-left: 0;
+  padding-right: 41px;
+}
+#header #cart .content {
+  left: 0;
+  right: auto;
+}
+.success,
+.warning,
+.attention,
+.information {
+  text-align: left;
+}
+#pav-mainnav .navbar-default .navbar-nav > .dropdown > a .caret {
+  transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+#pav-mainnav .navbar-default .navbar-nav > .dropdown > a .caret:before {
+  right: 0px;
+  top: 0px;
+}
+#pav-mainnav .navbar-default .navbar-nav > li.first > a {
+  border-left: none;
+}
+#pav-mainnav .navbar-nav > li.first > a span:before {
+  left: inherit;
+  right: 12px;
+}
+#pav-mainnav .dropdown-menu ul li.parent:hover > .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+#pav-verticalmenu .dropdown-menu ul li a .caret {
+  left: -10px;
+}
+#pav-verticalmenu .box-heading .fa {
+  padding-right: 0;
+  padding-left: 10px;
+}
+#pav-verticalmenu .navbar-nav > li:hover > .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+#pav-verticalmenu .navbar-nav > li.parent:hover .dropdown-menu {
+  left: auto;
+  right: 100%;
+}
+#pav-verticalmenu .navbar-nav > li.parent:hover > a:after {
+  right: inherit;
+  left: -5px;
+}
+/*module*/
+.carousel-controls {
+  right: auto;
+  left: 0;
+}
+.h-tabs a:before {
+  right: 0;
+  left: auto;
+}
+/*.effect:hover .overlay {
+    left: 8px;
+}*/
+.pavcarousel .item-inner {
+  border-right: 1px solid #ebeef2;
+  border-left: none;
+}
+/*footer*/
+#footer .box-heading {
+  padding-right: 0;
+}
+/*newletter*/
+.newsletter_block .btn-primary {
+  border-radius: 4px 0 0 4px;
+}
+.newsletter_block .form-control {
+  border-radius: 0 4px 4px 0 !important;
+}
+/*.btn-shop-now img {
+	float: right;
+}
+*/
+.shapes.right {
+  left: auto;
+  right: 0;
+  border-left: 0px solid #EEEEEE;
+  border-right: 5px solid #EEEEEE;
+}
+.shapes.round {
+  right: inherit;
+  left: 20px;
+}
+.product-cols {
+  border-left: 1px solid #ebeef2;
+  border-right: 0;
+}
+.pavcol-lg-5.last,
+.pavcol-lg-5:last-child {
+  border-left: 1px solid #ebeef2;
+}
+.navbar-header {
+  float: right;
+}
+#pav-mainnav .dropdown:hover > .dropdown-menu {
+  left: auto;
+  right: 0;
+}
+.navbar-nav > li,
+.nav-tabs > li {
+  float: right;
+}
+.nav-tabs > li > a {
+  margin-right: 0;
+  margin-left: 2px;
+}
+#pav-verticalmenu .navbar-nav > li > a .caret {
+  right: auto;
+  left: 0;
+  height: 0px;
+  width: 0px;
+  border-right: 0;
+  border-top: 5px solid transparent;
+  border-left: 5px solid #999999;
+  border-bottom: 5px solid transparent;
+}
+.zoomWindow {
+  left: auto;
+  right: 385px !important;
+}
+/*product-list*/
+.product-block .product-icon {
+  margin-right: 5px;
+  margin-left: 0;
+}
+.product-label {
+  left: 10px;
+  right: auto;
+}
+.product-filter .display a.grid {
+  border-radius: 2px 0 0 2px;
+  border-right: none;
+  border-left: 1px solid #EBEEF2;
+}
+.product-filter .display a.list {
+  border-radius: 0 2px 2px 0;
+}
+.product-list .action .wishlist a,
+.product-list .action .compare a {
+  margin: 0 3px;
+}
+.product-list .product-label.product-label-special {
+  right: 0;
+}
+.product-list .image {
+  float: right;
+  margin-left: 18px;
+  margin-right: 0;
+}
+.product-info .description .fa,
+.product-info .share {
+  float: right;
+}
+.product-info .product-extra .add-action {
+  border-left: 1px solid #EBEEF2;
+}
+.product-info .product-extra .cart {
+  margin-right: 10px;
+}
+.product-info .product-label {
+  left: 20px;
+}
+.media > .pull-left {
+  margin-right: 0;
+  margin-left: 10px;
+}
+.radio input[type="radio"],
+.radio-inline input[type="radio"],
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"] {
+  float: right;
+  margin-left: 20px;
+}
+.sidebar .product-block .image {
+  float: right;
+}
+.blog-header .created {
+  left: inherit!important;
+  right: 8px;
+}
+.blog-meta > span {
+  float: right!important;
+}
+.button-close-menu {
+  left: 20px;
+  right: auto;
+}
+.offcanvas-menu {
+  left: inherit;
+  right: 0;
+}
+.offcanvas-effect-5.offcanvas-menu-open .offcanvas-pusher {
+  transform: translate3d(-300px, 0px, 0px);
+}
+.offcanvas-effect-5.offcanvas-menu {
+  transform: translate3d(100%, 0px, 0px);
+}
+.offcanvas-effect-3.offcanvas-menu-open .offcanvas-pusher {
+  transform: translate3d(-300px, 0px, 0px);
+}
+.offcanvas-effect-3.offcanvas-menu {
+  transform: translate3d(100%, 0px, 0px);
+}
+#column-right #pav-verticalmenu .navbar-nav > li:hover > .dropdown-menu {
+  left: 100%;
+  right: auto;
+}
+#column-right #pav-verticalmenu .navbar-nav > li.parent:hover > a:after {
+  left: 0;
+  right: -5px;
+}
+.box-wapper {
+  border-radius: 0 0 0 9px;
+}
+.sidebar .box-category li .fa {
+  left: 8px;
+  right: auto;
+}
+.rtl .pav-megamenu .navbar-nav > li.aligned-right .dropdown-menu {
+  left: 0 !important;
+  right: auto !important;
+}
+.rtl .pav-megamenu .navbar-nav > li.aligned-center .dropdown-menu {
+  transform: translate(50%);
+  right: 50% !important;
+}
+.rtl .pav-megamenu .dropdown-menu li a {
+  padding-right: 15px;
+  padding-left: 0;
+  background-position: 100% 7px;
+}
+.rtl .pav-megamenu .dropdown-menu li a:hover {
+  background-position: 100% -37px;
+}
+.rtl .pav-megamenu .dropdown-menu li a .caret {
+  left: -10px;
+  right: auto !important;
+}
+.rtl #pav-verticalmenu .dropdown-menu ul li a {
+  padding-left: 0;
+  padding-right: 15px;
+  background-position: 100% 7px;
+}
+.rtl #pav-verticalmenu .dropdown-menu ul li a:hover {
+  background-position: 100% -37px;
+}
+.rtl .addthis_toolbox a {
+  float: right;
+}
+.rtl .product-info .carousel-control.left {
+  left: 4px;
+}
+.rtl .product-info .carousel-control.right {
+  right: -2px;
+}
+.rtl .dropdown-menu.pull-right {
+  left: 0;
+  right: auto;
+}
+.rtl .text-right {
+  text-align: left !important;
+}
+.rtl .text-left {
+  text-align: right !important;
+}
+.rtl .product-block .action > * {
+  float: right;
+}
+.rtl ul.social li span {
+  float: right;
+  margin-left: 5px;
+  margin-right: 0;
+  padding-right: 4px;
+  padding-left: 0;
+}
+.rtl .close {
+  float: left;
+}
+.rtl .category-list ul {
+  float: right;
+  margin-left: 15px;
+  margin-right: 0;
+}
+.rtl .category-list ul li a {
+  padding-right: 10px;
+  padding-left: 0;
+}
+.rtl .refine-search ul li,
+.rtl .refine-search ol li {
+  float: right;
+}
+.rtl .refine-search ul li::before,
+.rtl .refine-search ol li::before {
+  left: auto;
+  right: 0;
+}
+.rtl .product-filter .display,
+.rtl .product-filter .sort,
+.rtl .product-filter .limit {
+  float: right;
+}
+.rtl .product-filter .product-compare {
+  float: left;
+}
+.rtl .product-related .carousel-controls {
+  left: 10px;
+  right: auto;
+}
+.rtl .htabs a {
+  float: right;
+}

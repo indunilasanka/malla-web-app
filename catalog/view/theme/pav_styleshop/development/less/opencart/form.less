@@ -1,0 +1,157 @@
+.form-control {  
+    .box-shadow(none);         
+    color: @input-color;
+    &:focus{
+      .box-shadow(none);
+    }    
+}
+
+textarea,select
+{
+	&.form-control{
+	}	
+}
+
+input[type="text"], 
+input[type="password"], 
+input[type="date"], 
+input[type="datetime"], 
+input[type="email"], 
+input[type="number"], 
+input[type="search"], 
+input[type="tel"], 
+input[type="time"], 
+input[type="url"],
+textarea, select{
+	padding: 5px;		
+	margin-left: 0px;
+	margin-right: 0px;		
+	.rounded-corners(0px);		
+	.transition(all 0.15s linear 0s);
+}
+
+.tabs-group{
+	input[type="text"],
+	input[type="password"]{
+		height: 33px;
+		padding: 5px;
+
+	}
+}
+
+input, button, select, textarea{
+	padding: @padding-base-vertical;
+	border: 1px solid @border-color;
+	color: @input-color;	
+	outline: none;
+	&:hover,&:focus{
+		outline: none !important;
+	}
+}
+select{
+	padding: @padding-small-vertical - 1;
+	cursor: pointer;
+}
+input[type="image"]{
+	border: 0;
+}
+
+.btn-group {
+	 
+}
+.btn{	
+	text-transform: uppercase;	
+	&.btn-theme-default{
+		text-align: center;	
+		background-color: @button-main-bg;
+		color: @button-main-color;	
+		padding: @button-main-padding;			
+		.rounded-corners(@button-main-rounded-corners);		
+		&.btn-small{	
+			padding: 0 5px 2px;
+			text-transform: capitalize;
+		}
+	}
+	&.btn-danger{
+		border-color: transparent;
+	}
+	&.btn-theme-normal{
+		background-color: @button-normal-bg;
+		color: @button-normal-color;
+		border: @button-normal-border;
+		font-size: @button-normal-font-size;
+		padding-top: @button-normal-padding;
+		padding-bottom: @button-normal-padding;
+		.rounded-corners(@button-normal-border-radius);				
+		.fa{
+			color: @button-normal-icon-color;
+		}	
+		&:hover,&:focus{
+			color: @button-normal-hover-color;
+			border-color: @theme-color;
+			.fa{
+				color: @button-normal-icon-hover-color;
+			}
+		}			
+	}
+	&.btn-shopping-cart {
+		padding: @button-addtocart-padding;
+		background: @button-addtocart-bg;
+		color: @button-addtocart-color;
+		text-transform: capitalize;	
+		font-family: @button-addtocart-font-family;	
+		height: @button-addtocart-height;
+		.rounded-corners(@button-normal-border-radius);	
+		.fa{
+			line-height: 21px;
+    		margin-right: 5px;
+		}
+	}
+	
+	&.blue{
+		background-color: @theme-color;
+		border: 0;
+		color: @white;
+		.transition(all 0s ease 0s);
+		span + span{
+			border: 0;
+			padding: @button-addtocart-padding;
+			font-size: @font-size-base - 1;
+			font-family: @font-family-tertiary;
+		}
+		.fa{
+			.size(32px,32px);
+			font-size: @font-size-base + 1;
+			line-height: 32px;
+			background-color: darken(@theme-color, 10%);
+		}
+		&:hover,&:focus{
+			background-color: @theme-color-tertiary;
+			color: @white;
+			.fa{
+				background-color: darken(@theme-color-tertiary, 10%);
+			}
+		}
+	}
+	&:hover,&:focus{
+		color: @white;
+		outline: none;
+		.box-shadow(none);
+		background-color: @button-main-bg-hover;
+		border-color: @button-main-bg-hover;
+			-webkit-transform-origin: 0 0;
+			transform-origin: 0 0;
+			-webkit-transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+			transition: all 0.6s cubic-bezier(0.05, 0.06, 0.05, 0.95);
+	}
+}
+
+.control-label{
+	padding-top: 7px;
+	color: @label-control-color;
+	font-size: @label-control-font-size;	
+	font-weight: @label-control-font-weight;
+}
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{
+	/*margin-top: 0;*/
+}

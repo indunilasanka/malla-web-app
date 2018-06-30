@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<footer>
+		 <title>Static Modules</title>
+		 <description></description>
+	 	 <module>
+	 	 	<title>Paypal</title>
+	 	 	<field>
+	 	 		<name>widget_paypal_data</name>
+	 	 		<label>Paypal</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<img alt="" src="image/catalog/paypal.png" />
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	 	 <module>
+	 	 	<title>Custom</title>
+	 	 	<field>
+	 	 		<name>widget_custom</name>
+	 	 		<label>Call Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<div class="box-services"><span class="pull-left"><i class="fa fa-truck">&nbsp;</i></span>
+					<div class="media-body">
+					<h3>free shipping</h3>
+					<small>all order over $150</small></div>
+					</div>
+
+					<div class="box-services"><span class="pull-left"><i class="fa fa-refresh">&nbsp;</i></span>
+
+					<div class="media-body">
+					<h3>Return &amp; Exchange</h3>
+					<small>in 3 working days</small></div>
+					</div>
+
+					<div class="box-services"><span class="pull-left"><i class="fa fa-phone">&nbsp;</i></span>
+
+					<div class="media-body">
+					<h3>04 123 456 789</h3>
+					<small>Sed ullamcorper mattis</small></div>
+					</div>
+
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	 	 <module>
+	 	 	<title>Custom</title>
+	 	 	<field>
+	 	 		<name>widget_contact_us</name>
+	 	 		<label>Contact Us</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+	 	 			<div class="box pav-custom">
+		 	 			<div class="box-heading">
+							<span>Contact Us</span>
+						</div>
+						<ul class="social">
+							<li><a href="#"><span class="fa fa-map-marker">&nbsp;</span>Head Office: 12345 Street name, California, USA</a></li>
+							<li><a href="#"><span class="fa fa-mobile-phone">&nbsp;</span>Phone: (+084) 0123 456 789</a></li>
+							<li><a href="#"><span class="fa fa-envelope">&nbsp;</span>Email: pavo_styleshop@gmail.com</a></li>
+						</ul>
+					</div>
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+
+	 	 <module>
+	 	 	<title>Custom</title>
+	 	 	<field>
+	 	 		<name>widget_banner_ft</name>
+	 	 		<label>Banner Footer</label>
+	 	 		<type>textarea</type>
+	 	 		<lang>1</lang>
+	 	 		<default> <![CDATA[
+					<div class="box banner-ft effect"><a class="overlay" href="#">&nbsp;</a><img alt="banner-footer" class="img-responsive" src="image/catalog/demo/banner/banner-ft.png" /></div>
+
+	 	 		 ]]> </default>		
+	 		</field>
+	 	 </module>
+	</footer>	
+	
+</theme>
+

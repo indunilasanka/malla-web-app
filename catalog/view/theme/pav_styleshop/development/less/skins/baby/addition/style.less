@@ -1,0 +1,130 @@
+body,#header-main{
+	background-color: #F8F2BE;
+}
+#pav-mass-bottom{
+	background: url('@{image-theme-path}bg-footertop.png') repeat-x scroll center bottom;
+}
+#footer{
+	background-image: url('@{image-theme-path}bg-footer.png');
+	background-repeat: repeat-x;
+	background-position: center top; 
+}
+#pav-mainnav{
+	background: url('@{image-theme-path}bg_menu.png') repeat-x scroll center bottom;
+}
+
+#pav-mainnav{
+	border-top: none;
+}
+.pav-megamenu .navbar-nav > li > a{
+	&:hover,&:active,&:focus{
+		color: @white !important;
+		border-color: transparent !important;	
+	}
+	color: @white;
+}
+.pav-megamenu .navbar .nav > li.home a{
+	background-image: url('@{image-theme-path}icon-home.png') !important;
+	background-position: 13px 16px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.pav-megamenu .navbar-nav > li{
+	&:hover{
+		background:rgba(255, 113, 113, 0.65);
+		>a{
+			color: @white;
+			&:before{
+				background-color: transparent;
+			}
+		}
+	}
+	> a{
+		border: none;
+		font-size: @font-size-base + 3;
+		font-weight: bold;
+		font-family: @font-family-tertiary;
+		text-transform: capitalize;
+		font-style: italic;
+	}
+	&.first >a{
+		border: none;
+	}
+}
+.pav-megamenu .navbar-default{
+		.navbar-nav{
+			> .dropdown{
+				> a .caret:before{
+					color: @white;
+				}
+				&:hover > a .caret:before, &:active > a .caret:before {
+					color: @white;
+				}
+			} 		
+		}
+}
+.support .box-services span{
+	background: #fff;
+}
+#pav-verticalmenu .box-content{
+	background: url('@{image-theme-path}red.png') repeat-x center top @white;
+	border:none;
+}
+.box.orange.nopadding{
+	position: relative;
+	.box-content:before {
+	    background: url('@{image-theme-path}green.png') repeat-x center top @white;
+	    border-left: 0 none;
+	    content: "";
+	    display: block;
+	    height: 5px;
+	    left: 0;
+	    position: absolute;
+	    top: 21px;
+	    width: 100%;
+	    z-index: 2;
+	}
+	.product-cols{
+		z-index: 1;
+	}
+}
+.sidebar{
+	.box.orange.nopadding .box-content:before{
+		background: none;
+	}
+}
+.pavcarousel{
+	&:before {
+	    background: url('@{image-theme-path}redlight.png') repeat-x scroll center top;
+	    display: block;
+	    height: 5px;
+	    border-radius: 4px;
+	}
+	border-top: none;
+}
+
+.box-wapper{
+	&:before{
+		border-left: 0 none;
+	    content: "";
+	    display: block;
+	    height: 5px;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    z-index: 2;
+	}
+	 &.blue:before{
+    	background: url('@{image-theme-path}biege.png') repeat-x center top;	
+    } 
+     &.cyan:before{
+    	background: url('@{image-theme-path}greenlight.png') repeat-x center top;	
+    }   
+     &.green:before{
+    	background: url('@{image-theme-path}orange.png') repeat-x center top;	
+    }
+     &.red:before{
+    	background: url('@{image-theme-path}redlight.png') repeat-x center top;	
+    }
+}

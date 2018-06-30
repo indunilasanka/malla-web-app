@@ -1,0 +1,356 @@
+/******************************************************
+ * @package Pav Opencart Theme Framework for Opencart 1.5.x
+ * @version 1.1
+ * @author http://www.pavothemes.com
+ * @copyright	Copyright (C) Augus 2013 PavoThemes.com <@emai:pavothemes@gmail.com>.All rights reserved.
+ * @license		GNU General Public License version 2
+ *******************************************************/
+
+/**
+* BASE CSS STYLES
+*/
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+	background-color: @body-bg;
+	color: @text-color;
+    font-size: @font-size-base;
+	margin: 0px;
+	padding: 0px;        
+    overflow-x:hidden; 
+}
+.content{
+    ul{
+        list-style: none outside none;
+    }
+}
+
+font{
+    font-size: @font-size-base;
+    font-family: @font-family-base;
+}
+
+ol, ul {    
+    margin: 0;
+    padding: 0;
+    li{
+        line-height: @list-line-height;
+    }
+}
+
+button, .btn{
+    &:focus,&:hover,&:active{       
+        outline: none;
+    }
+}
+
+label{
+    color: @label-control-color;
+}
+
+.fs9{ font-size:@font-size-base - 5 ; }
+.fs10{ font-size:@font-size-base - 4; }
+.fs11{ font-size:@font-size-base - 3 ; }
+.fs12{ font-size:@font-size-base - 2; }
+.fs13{ font-size:@font-size-base - 1; }
+.fs14{ font-size:@font-size-base; }
+.fs15{ font-size:@font-size-base + 1; }
+.fs16{ font-size:@font-size-base + 2; }
+
+a {    
+    img {
+        border: none;
+    }
+    &:hover, &:focus {
+        text-decoration: none;  
+        outline: none; 
+        color: @link-hover-color;   
+    }    
+    cursor: pointer;
+    outline: none;
+}
+
+b, strong{
+    color: @theme-color-secondary;
+    font-weight: 400;
+}
+
+/* TABLE STYLE */
+table{
+    background-color: @table-bg;
+}
+
+
+table.list {
+    border-collapse: collapse;
+    width: 100%;
+    border-top: 1px solid @table-border-color;
+    border-left: 1px solid @table-border-color;
+    margin-bottom: 20px;
+    thead {
+        td {            
+            padding: 0px 5px;
+        }
+    }
+    .center {
+        text-align: center;
+        padding: 7px;
+    }
+    tbody {
+        td {
+            padding: 0px 5px;
+        }
+    }
+    td {
+        border-right: 1px solid @table-border-color;
+        border-bottom: 1px solid @table-border-color;
+    }
+    .right {
+        text-align: right;
+        padding: 7px;
+    }
+    .left {
+        text-align: left;
+        padding: 7px;
+    }
+}
+table.list thead td a, .list thead td {
+    text-decoration: none;
+    color: #222222;
+    font-weight: bold;
+}
+input.large-field, select.large-field {
+    width: percentage(.65);
+}
+table.form {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    & > * {
+        & > * {
+            & > td {
+                color: #000000;
+            }
+        }
+    }
+    td {
+        padding: 4px;
+    }
+    tr {
+        td:first-child {
+            width: 170px;
+        }
+    }
+}
+table.radio {
+    width: 100%;
+    border-collapse: collapse;
+    padding: 0;
+    display: table;
+    td {
+        padding: 5px;
+        label {
+            display: block;
+        }
+        input[type="radio"]{
+            margin: 0;
+        }
+    }
+    tr {
+        td:first-child {
+            width: 1px;
+            input {
+                margin-top: 1px;
+            }
+        }
+    }
+    tr.highlight:hover {
+        td {
+            background: lighten(@border-color, 5%);
+            cursor: pointer;
+        }
+    }
+}
+
+/*  PAGINATION STYLE */
+
+.pagination{    
+    .rounded-corners(0);        
+    display: block;    
+    margin: 0;   
+    padding: 10px;       
+    background-color: @product-bg-color;    
+    .links {
+        float: left;  
+        .rounded-corners(3px); 
+        border: @pagination-border;     
+        a,b{ 
+        .inline-block();        
+        .rounded-corners(0px);
+        .size(20px,30px);
+        .transition(background-color 350ms ease-in);
+        padding: 0;       
+        line-height: 30px;
+        text-decoration: none;  
+        margin: 0 3px 0 0;                 
+        text-align: center;   
+        font-weight: normal; 
+        color: #aa8255;
+        &:active{
+            color: @pagination-active-color;                  
+        }            
+    }
+    b{
+        color: @pagination-active-color;
+        margin-left: 10px;          
+    }
+}
+    .results {
+        float: right;    
+        color: #333;
+    }
+}
+
+.main-column{
+    .pagination{
+        .results{
+            padding-top: @padding-base-vertical;
+        }
+    }
+}
+
+/* button */
+.buttons {
+    .clearfix();            
+    .center {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .right {
+        float: right;
+        text-align: right;
+    }
+    .left {
+        float: left;
+        text-align: left;
+    }
+    &.no-padding{
+        padding: 0;
+        border: 0;
+    }
+}
+
+/* tab style */
+.htabs {
+    position: relative;
+    .nav > li > a:hover, .nav > li > a:focus{
+        background-color: transparent;
+    }
+    a {
+        float: left;
+        font-size: @font-size-base + 3;
+        font-family: @font-family-fourth;
+        color: @htab-nav-color;
+    }
+    li.active a{
+        color:@htab-nav-selected-color;
+    }
+}
+
+.tab-content{
+    list-style-position: inside;
+}
+/* links style */
+
+.links {    
+    margin: 0;
+    padding: 0;               
+}
+
+//
+// Color box
+// --------------------------------------------------
+#colorbox{
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+}
+///
+// caroulsel
+//
+.carousel-controls {
+    position: absolute;
+    right: 0;
+    top: -29px;
+    .size(50px,30px);
+    z-index: 12;
+}
+
+
+
+//
+// Labels
+// --------------------------------------------------
+.product-label{
+    .rounded-corners(50%);
+    color: @label-color;
+    font-size: @label-font-size;
+    font-weight: 600;
+    .size(44px,33px);
+    line-height: 33px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+    right: 0;
+    z-index: 2; 
+    &:before {
+        border-left: 11px solid rgba(0, 0, 0, 0);
+        border-right: 11px solid rgba(0, 0, 0, 0);
+        bottom: 4px;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        z-index: 0;
+    }   
+    &.product-label-new{
+        left: 0px;
+        border-right: 46px solid transparent;   
+        border-top: 46px solid @label-new-bg;  
+        span{            
+            left: 5px;          
+            .rotate(-50deg);  
+        }           
+    }
+    &.product-label-special{
+        background: @label-special-bg;
+        &:before {
+            border-bottom: 7px solid @label-special-bg;
+            left: -3px;
+        }  
+    }
+}
+
+.tooltip-inner { 
+    border-radius: @tooltip-border-radius;
+}
+//*
+//**padding
+//**
+.padding {
+    padding: 20px;
+}
+.no-padding {
+padding: 0;
+}
+
+#pav-mainnav{
+    .navbar{
+        margin: 0;
+    }
+} 

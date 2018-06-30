@@ -1,0 +1,14 @@
+#header{
+	border-bottom: 1px solid #E9E9E9;
+	max-height: 193px;
+	margin-bottom: 20px;
+}
+.navbar-nav > li > .dropdown-menu{
+	margin-top: 1px;
+}
+.pav-megamenu .navbar-default .navbar-nav > .dropdown > a .caret:before {
+	top: -10px;
+}
+.pav-megamenu .dropdown:hover > .dropdown-menu{
+	border-bottom: 1px solid #E9E9E9;
+}

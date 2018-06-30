@@ -1,0 +1,60 @@
+.pav-megamenu .navbar-nav > li > a{
+	color: @white;
+}
+.pav-megamenu .navbar .nav > li.home a{
+	background-image: url('@{image-theme-path}icon-home.png') !important;
+	background-position: 13px 16px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.pav-megamenu .navbar-nav > li{
+	&:hover{
+		background: #3bac53;
+		>a{
+			color: @white;
+			&:before{
+				background-color: transparent;
+			}
+		}
+	}
+	> a{
+		border-color: #333;
+		&:hover,&:active,&:focus{
+			color: @white !important;
+			border-color: transparent !important;	
+		}
+	}
+	&.home{
+		/*background-color: #3bac53;*/
+	}
+	&.first >a{
+		border-left: none;
+	}
+}
+.pav-megamenu .navbar-default{
+		.navbar-nav{
+			> .dropdown{
+				> a .caret:before{
+					color: @white;
+				}
+				&:hover > a .caret:before, &:active > a .caret:before {
+					color: @white;
+				}
+			} 
+			> li.last > a{
+				border-left: none !important;
+			}		
+		}
+}
+#pav-verticalmenu{
+	.box-heading{
+		.rounded-corners(4px 4px 0 0);
+	}
+	.box-content{
+		border: 2px solid @theme-color-tertiary;
+		.rounded-corners(0 0 4px 4px);
+	}
+}
+/*.nopadding .box-content{
+	border: 2px solid @theme-color;
+}*/	
